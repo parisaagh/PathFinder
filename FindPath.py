@@ -56,7 +56,6 @@ def a_star(start, goal):
     return []  # No path found
 
 
-##########-----Adrienne-----##########
 # Dijkstra's algorithm
 def dijkstra(start, goal):
     open_set = []
@@ -96,7 +95,6 @@ def get_neighbors(node):
     return neighbors
 
 
-##########-----Adrienne-----##########
 def process_requests(start, algorithm, requests):
     paths = []
     priority_queue = []
@@ -149,7 +147,6 @@ def animate_paths(paths):
             time.sleep(delay / 1000)  # Sleep for the specified delay
 
 
-##########-----Adrienne-----##########
 def display_hospital_map(hospital_map, canvas):
     for row_index, row in enumerate(hospital_map):
         for col_index, cell in enumerate(row):
@@ -209,7 +206,7 @@ def open_file():
 
 
 
-##########-----parisa&Adrienne-----##########
+##########-----parisa-----##########
 def main():
     global root, canvas, hospital_map, PRIORITIES
     image_path = './photo.jpg'
