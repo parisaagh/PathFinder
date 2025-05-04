@@ -1,1 +1,1 @@
-Uploaded by me
+This project implements a pathfinding visualization for a robot nurse in a hospital environment using Python and Tkinter. The program allows you to visualize different pathfinding algorithms (A* and Dijkstra's) as the robot navigates to patient requests with varying priorities.
