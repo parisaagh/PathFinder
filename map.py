@@ -28,7 +28,6 @@ internal_cells = []
 current_cell = None
 
 
-##########-----Adrienne-----##########
 # Function to handle cell selection
 def cell_clicked(event):
     global current_cell
@@ -85,7 +84,6 @@ def handle_keyboard(event):
 
 
 
-##########-----Adrienne-----##########
 # Function to calculate the bounding box of selected cells
 def calculate_bounding_box():
     if not selected_cells:
@@ -139,7 +137,6 @@ def check_around(row, col):
     return True
 
 
-##########-----Adrienne-----##########
 # Function to select internal cells within the bounding box
 def select_internal_cells():
     min_row, max_row, min_col, max_col = calculate_bounding_box()
@@ -175,7 +172,7 @@ def print_selected_cells():
     #     print(cell)
 
 
-##########-----parisa&Adrienne-----##########
+##########-----parisa-----##########
 # Create a Tkinter application
 root = tk.Tk()
 root.title("Binary Image Grid")
