@@ -32,7 +32,6 @@ selected_cells = []
 current_cell = None
 
 
-##########-----Adrienne-----##########
 # Function to handle cell selection
 def cell_clicked(event):
     global current_cell
@@ -95,7 +94,7 @@ def print_selected_cells():
 
 
 
-##########-----parisa&Adrienne-----##########
+##########-----parisa-----##########
 # Create a Tkinter application
 root = tk.Tk()
 root.title("Binary Image Grid")
