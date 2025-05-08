@@ -12,7 +12,7 @@ root = None
 canvas = None
 hospital_map = None
 cell_size = 4
-delay = 5  # Delay in milliseconds (500 ms = 0.5 seconds)
+delay = 5  # Delay in milliseconds
 start_location = None
 PRIORITIES = None
 output = []  # the success and failure output
