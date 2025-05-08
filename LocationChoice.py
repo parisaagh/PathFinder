@@ -9,7 +9,7 @@ import tkinter as tk
 original_image_path = './floorplan1_nolegend.JPG'
 original_image = cv2.imread(original_image_path)
 
-# Load and process the image
+# Load and process image
 image_path = './photo.jpg'
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 resized_image = cv2.resize(image, (0, 0), fx=1 / 4, fy=1 / 4)
